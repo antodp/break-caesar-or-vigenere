@@ -1,0 +1,5 @@
+_breakcyphers.py_ contiene funzioni che consentono il recupero di una probabile chiave di cifratura (cifrari di Cesare o Vigenere).
+L'attacco si divide in 2 fasi:
+	- Rilevazione del cifrario usato
+	- Recupero della chiave
+In entrambe le fasi vengono applicati metodi statistici quali analisi delle frequenze degli n-grammi e il test di verifica dell'ipotesi (test Chi Quadro).
